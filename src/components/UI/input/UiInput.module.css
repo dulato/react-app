@@ -1,0 +1,22 @@
+.uiInput {
+    position: relative;
+}
+
+.inputField {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    background: #fff;
+    border: 1px solid #878787;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #000;
+    outline: none;
+    transition: all 0.3s ease 0s;
+}
+
+.inputField:focus {
+    border: 1px solid #008ff9;
+}
